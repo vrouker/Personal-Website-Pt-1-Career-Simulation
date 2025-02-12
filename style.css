@@ -1,0 +1,42 @@
+header {
+    color: #380507;
+    font-weight:bold;
+    padding: 5px;
+    margin:10px;
+    text-align: right;
+}
+
+body {background-color: #f0e6db;}
+.home {margin-right:20px;}
+
+.about {margin-right:20px;}
+
+.homeHeading1 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#380507;
+    text-align:center;
+}
+
+.missionStatement {
+    background-color: #c0751d;
+    color: #380507;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    margin:10px;
+    width: 45%;
+    text-align: center;
+}
+
+.definingQuote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#380507;
+    font-size:21px;
+    font-style:italic;
+    display: inline-block;
+    text-align:center;
+    width:75%;
+    padding:10px;
+    border:#c0751d;
+    border-style:solid;
+}

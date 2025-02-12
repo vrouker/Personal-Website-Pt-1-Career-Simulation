@@ -1,0 +1,28 @@
+header {
+    color: #FFD700;
+    font-weight:bold;
+    padding: 5px;
+    margin:10px;
+    text-align: right;
+}
+
+body {background-color: #7851a9;}
+.home {margin-right:20px;}
+
+.about {margin-right:20px;}
+
+.homeHeading1 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FFD700;
+    text-align:center;
+}
+
+.missionStatement {
+    background-color: #FFD700;
+    color: #7851a9;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    margin:10px;
+}
+

@@ -79,3 +79,18 @@ body {background-color: #f0e6db;}
     text-align: center;}
 /*End of about page CSS*/
 
+/*Start of portfolio CSS*/
+.completedProjects {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#380507;
+    text-decoration: underline;
+    padding:10px;}
+
+.PortfolioProject1, .PortfolioProject2, .PortfolioProject3 {
+    background-color: #c0751d;
+    color: #380507;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px;
+    line-height:1.25;
+    text-align: center;}
+/*End of portfolio CSS*/

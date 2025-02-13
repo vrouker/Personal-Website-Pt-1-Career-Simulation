@@ -4,18 +4,17 @@ header {
     padding: 5px;
     margin:10px;
     text-align: right;
-}
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
 
 body {background-color: #f0e6db;}
 .home {margin-right:20px;}
 
 .about {margin-right:20px;}
-
+/*Start of home page CSS*/
 .homeHeading1 { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#380507;
-    text-align:center;
-}
+    text-align:center;}
 
 .missionStatement {
     background-color: #c0751d;
@@ -25,8 +24,7 @@ body {background-color: #f0e6db;}
     padding:10px;
     margin:10px;
     width: 45%;
-    text-align: center;
-}
+    text-align: center;}
 
 .definingQuote {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,5 +36,46 @@ body {background-color: #f0e6db;}
     width:75%;
     padding:10px;
     border:#c0751d;
-    border-style:solid;
-}
+    border-style:solid;}
+    /*End of home page CSS*/
+
+    /*Start of about page CSS*/
+.aboutDescription {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#c0751d;
+    text-decoration: underline;
+    padding:10px;}
+
+.aboutArticle1 {
+        background-color: #380507;
+        color: #f0e6db;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding:10px;
+        line-height:1.25;
+        text-align: center;}
+
+.cozyLibrary {
+    width:50%;
+    display:inline;}
+
+.aboutArticle2 {
+    background-color: #c0751d;
+    color: #f0e6db;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px;
+    line-height:1.25;
+    text-align: center;}
+
+.bearAndbreakfast {
+    width:50%;
+    display:inline;}
+
+.aboutArticle3 {
+    background-color: #380507;
+    color: #f0e6db;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px;
+    line-height:1.25;
+    text-align: center;}
+/*End of about page CSS*/
+

@@ -13,6 +13,8 @@ body {background-color: #f0e6db;}
 
 .portfolio {margin-right:20px}
 
+.contactForm {margin-right: 10px}
+
 
 /*Start of home page CSS*/
 .homeHeading1 { 
@@ -98,3 +100,14 @@ body {background-color: #f0e6db;}
     line-height:1.25;
     text-align: center;}
 /*End of portfolio CSS*/
+
+/*Start of contact form CSS*/
+.Contactform {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#380507
+}
+
+form{ 
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}

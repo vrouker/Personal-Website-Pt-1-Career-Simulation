@@ -1,17 +1,25 @@
+html{
+    background:url(fall_background.jpg)}
+
 header {
     color: #380507;
     font-weight:bold;
     padding: 5px;
     margin:10px;
     text-align: right;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1em;}
 
-body {background-color: #f0e6db;}
+body {background-color: #f0e6db;
+    margin:5%;}
+
 .home {margin-right:20px;}
 
 .about {margin-right:20px;}
 
 .portfolio {margin-right:20px}
+
+.contactForm {margin-right: 10px}
 
 
 /*Start of home page CSS*/
@@ -23,10 +31,10 @@ body {background-color: #f0e6db;}
 .missionStatement {
     background-color: #c0751d;
     color: #380507;
-    display: inline-block;
+    display: block;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding:10px;
-    margin:10px;
+    padding:5%;
+    margin:5px;
     width: 45%;
     text-align: center;}
 
@@ -35,15 +43,22 @@ body {background-color: #f0e6db;}
     color:#380507;
     font-size:21px;
     font-style:italic;
-    display: inline-block;
+    display: inline;
     text-align:center;
     width:75%;
     padding:10px;
-    border:#c0751d;
-    border-style:solid;}
-    /*End of home page CSS*/
+    margin:10px;}
 
-    /*Start of about page CSS*/
+.selfie{ 
+    width:32%;
+    height:auto;
+    float:right;
+    padding:5px;
+    }
+
+/*End of home page CSS*/
+
+/*Start of about page CSS*/
 .aboutDescription {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:#c0751d;
@@ -97,4 +112,52 @@ body {background-color: #f0e6db;}
     padding:10px;
     line-height:1.25;
     text-align: center;}
+
+    .PortfolioProject1:hover, .PortfolioProject2:hover, .PortfolioProject3:hover{
+        background-color:#f0e6db}
 /*End of portfolio CSS*/
+
+/*Start of contact form CSS*/
+.Contactform {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#380507;
+    margin:3%;}
+
+form{ 
+    display:grid;
+    grid-template-columns: repeat(1,1fr);}
+/*End of contact form CSS*/
+
+/*Start of submission HTML CSS*/
+.back-button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#380507;
+    font-size:125%;
+    display:flex;
+    justify-content: center;}
+
+.submissionSuccessful{
+    display:flex;
+    justify-content: center;}
+/*End of submission HTML CSS*/
+
+/*Start of media query CSS*/
+@media(max-width:600px){
+    body{
+        font-size:50%;}
+
+    .definingQuote{font-size:45%;}
+
+    .cozyLibrary, .bearAndbreakfast{
+        width:100%;
+        display:inline-block;}
+    
+    .aboutArticle1, .aboutArticle2, .aboutArticle3{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);}
+
+    .articleHeading{
+        padding-top: 20%;
+        padding-bottom:20%}
+    }
+/*End of media query CSS*/
